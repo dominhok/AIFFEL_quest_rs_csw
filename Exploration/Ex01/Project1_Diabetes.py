@@ -87,7 +87,6 @@ print(f"Loss in test with learning rate = 0.01 : {loss_1} \n  W : {W_1}\n  b : {
 print(f"Loss in test with learning rate = 0.1 : {loss_2} \n  W : {W_2}\n  b : {b_2}\n")
 print(f"Loss in test with learning rate = 1 : {loss_3} \n  W : {W_3}\n  b : {b_3}\n")
 
-#시각화
 import matplotlib.pyplot as plt
 plt.plot(losses_1, label='lr=0.01')
 plt.plot(losses_2, label='lr=0.1')
@@ -96,4 +95,28 @@ plt.xlabel('Epochs')
 plt.ylabel('Loss')
 plt.title('Comparing different Learning rate')
 plt.legend()
+plt.show()
+
+#11. 정답 데이터와 예측한 데이터 시각화하기기
+fig, axes = plt.subplots(3, 1)
+
+# Learning Rate = 0.01
+axes[0].scatter(x=X_test[:, 0], y=y_test, color='black', label='True')
+axes[0].scatter(x=X_test[:, 0], y=test_prediction_1, color='red', label='Predicted')
+axes[0].set_title('Learning Rate = 0.01')
+axes[0].legend(loc='upper left', bbox_to_anchor=(1, 1), framealpha=0.5)
+
+# Learning Rate = 0.1
+axes[1].scatter(x=X_test[:, 0], y=y_test, color='black', label='True')
+axes[1].scatter(x=X_test[:, 0], y=test_prediction_2, color='red', label='Predicted')
+axes[1].set_title('Learning Rate = 0.1')
+axes[1].legend(loc='upper left', bbox_to_anchor=(1, 1), framealpha=0.5)
+
+# Learning Rate = 1
+axes[2].scatter(x=X_test[:, 0], y=y_test, color='black', label='True')
+axes[2].scatter(x=X_test[:, 0], y=test_prediction_3, color='red', label='Predicted')
+axes[2].set_title('Learning Rate = 1')
+axes[2].legend(loc='upper left', bbox_to_anchor=(1, 1), framealpha=0.5)
+
+plt.tight_layout()
 plt.show()
