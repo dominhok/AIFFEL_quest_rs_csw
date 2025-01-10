@@ -21,6 +21,8 @@ import numpy as np
 print("X.shape : " + str(df_X.shape)) # 10개의 피처 확인
 print("y.shape : " + str(df_y.shape))
 num_features = df_X.shape[1]
+
+np.random.seed(42)
 W = np.random.randn(num_features)
 b = np.random.randn()
 
