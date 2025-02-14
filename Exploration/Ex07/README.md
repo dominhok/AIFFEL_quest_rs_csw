@@ -14,23 +14,23 @@
 - [x]  **2. 전체 코드에서 가장 핵심적이거나 가장 복잡하고 이해하기 어려운 부분에 작성된 주석 또는 doc string을 보고 해당 코드가 잘 이해되었나요?**
     - 한국어 데이터 전처리 수행 시 중복제거나 영어를 한글로 변환하는 과정이 인상깊음
 
-    ![alt text](screenshot\image_2_0.png)
-    ![alt text](screenshot\image_2_1.png)
+    ![alt text](screenshot/image_2_0.png)
+    ![alt text](screenshot/image_2_1.png)
         
 - [x]  **3. 에러가 난 부분을 디버깅하여 문제를 해결한 기록을 남겼거나 새로운 시도 또는 추가 실험을 수행해봤나요?**
     - 전처리과정에서 발생했던 문제 및 해결과정을 기록하여 데이터를 다루면서 고민했던 흔적이 보임
     
-    ![alt text](screenshot\image_3.png)
+    ![alt text](screenshot/image_3.png)
         
 - [x]  **4. 회고를 잘 작성했나요?**
     - 프로젝트 진행하면서 가졌던 의문이나 공부한 내용을 잘 정리해놓음
-    ![alt text](screenshot\image_4.png)
+    ![alt text](screenshot/image_4.png)
         
 - [x]  **5. 코드가 간결하고 효율적인가요?**
     - 코드가 간결하고 목적이 분명하여 가독성이 좋음
 
-    ![alt text](screenshot\image_5.png)
-    ![alt text](screenshot\image_6.png)
+    ![alt text](screenshot/image_5.png)
+    ![alt text](screenshot/image_6.png)
 
 
 # 회고(참고 링크 및 코드 개선)
