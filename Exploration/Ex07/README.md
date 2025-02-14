@@ -8,8 +8,8 @@
     - 한국어 데이터 셋을 활용하여 전처리와 모델학습을 성공적으로 수행함
     - 입력 문장에 따른 한국어 답변이 준수하게 출력됨
 
-    ![alt text](screenshot\image_0.png)
-    ![alt text](screenshot\image_1.png)
+        ![alt text](screenshot\image_0.png)
+        ![alt text](screenshot\image_1.png)
     
 - [x]  **2. 전체 코드에서 가장 핵심적이거나 가장 복잡하고 이해하기 어려운 부분에 작성된 주석 또는 doc string을 보고 해당 코드가 잘 이해되었나요?**
     - 한국어 데이터 전처리 수행 시 중복제거나 영어를 한글로 변환하는 과정이 인상깊음
